@@ -1,0 +1,157 @@
+html{
+    height: 100%;
+    background-color: #0B0B0B;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 70%;
+
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    background-color: #131313;
+}
+
+#tudo {
+    width: auto;
+    max-width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    color: white;
+}
+
+#header h1{
+    color: #ffffff;
+    width: auto;
+    height: auto;
+}
+
+#header h2{
+    color: #ffffff;
+    width: auto;
+    height: auto;
+}
+
+#notas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+    padding-top: 5%;
+    width: 100%;
+    border-radius: 25px;
+    color: #fff;
+    color: white;
+    margin: 0;
+}
+
+#resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    width: auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+#valores{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+#valores input{
+    border-radius: 10px;
+    height: 100%;
+    text-align: center;
+    border: transparent;
+    color: #000000;
+}
+
+#valores input:focus{
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#valores input::placeholder {
+    text-align: center;
+}
+
+#botao{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding-bottom: 2%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color: #3f3c49;
+}
+
+#botao button{
+    border: none;
+    color: #35343b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition:  0.5s ease;
+}
+
+#botao button:hover{
+        background-color: #464b75;
+        color: #fff;
+}
+
+@media (min-width: 1024px) {
+    .container{
+        width: 60%;
+        height: 70%;
+    }
+}
+
+@media (min-width: 640px) {
+    .container{
+        width: 60%;
+        height: 70%;
+    }
+}
